@@ -1,0 +1,14 @@
+<div class="row">
+  <div class=".col-md-4 .col-md-offest-4">
+    <%= form_tag("#", method: "get") do %>
+    <%= label_tag(:q, "Search for:") %>
+    <%= text_field_tag :q, class: 'form-control' %>
+    <%= submit_tag("Search", class: 'btn btn-lg btn-primary') %>
+    <% end %>
+
+    <%= form_for Particle.create do |f| %>
+    <%= number_field :slice, in: 1.0..5.0, step: 1.0, class: 'form-control' %>
+    <%= f.submit "Check out particles!", class: 'btn btn-lg btn-primary' %>
+    <% end %>
+  </div>
+</div>

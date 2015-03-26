@@ -1,11 +1,15 @@
 <footer class="footer">
-  <small>
-    Built by<a href="http://www.timothyshulljr.com/">Tim Shull</a>
-  </small>
-  <nav>
-    <ul>
-      <li><a href="http://openaura.com/">OpenAura</a></li>
-      <li><a href="http://developer.openaura.com/">Developers</a></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <div class="row">
+      <div class=".col-md-2 pull-left">
+        <p class="text-muted bottom-text offset-top">
+          Built by <a href="http://www.timothyshulljr.com/">Tim Shull</a>
+        </p>
+      </div>
+      <div class=".col-md-4 pull-right">
+        <%= link_to image_tag("oa_logo_black.png", alt: "OpenAura logo"),
+        'http://openaura.com' %>
+      </div>
+    </div>
+  </div>
 </footer>
