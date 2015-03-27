@@ -21,6 +21,7 @@ class Particle < ActiveRecord::Base
     end
   end
   
+  # https://github.com/splendeo/activerecord-reset-pk-sequence
   def self.reset_pk_sequence
     case ActiveRecord::Base.connection.adapter_name
     when 'SQLite'
