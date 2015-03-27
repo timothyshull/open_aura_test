@@ -11,11 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150326051852) do
+ActiveRecord::Schema.define(version: 20150327051156) do
 
   create_table "particles", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "provider_name"
+    t.string   "particle_id"
+    t.string   "particle_date"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
+
+  add_index "particles", ["provider_name"], name: "provider_nm_ix"
 
 end
