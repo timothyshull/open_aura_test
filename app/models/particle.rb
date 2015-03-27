@@ -3,6 +3,7 @@ class Particle < ActiveRecord::Base
   require 'json'
   include QueryApi
   
+  # For CRUD actions I just use the actions inherited from ActivRecord::Base. The methods here take care of making the API call and populating and re-indexing the database on each query
   def populate(artist_id)
     if Particle.exists?
       Particle.delete_all
