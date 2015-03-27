@@ -1,11 +1,26 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  provider_name: MyString
-  particle_id: MyString
-  particle_date: MyString
+  provider_name: Associated Press
+  particle_id: 5514d4f76f93ab87de096f5e
+  particle_date: 2015-03-24T07:00:00.000Z
 
 two:
-  provider_name: MyString
-  particle_id: MyString
-  particle_date: MyString
+  provider_name: LastFM
+  particle_id: 54473e31e4b04d973c8f3146
+  particle_date: 2015-03-20T15:57:46.000Z
+
+three:
+  provider_name: Getty Images
+  particle_id: 5514d4f86f93abc5cc0970fe
+  particle_date: 2015-03-13T05:22:47.000Z
+  
+four:
+  provider_name: Facebook
+  particle_id: 5514d4cd943b55c99a072c02
+  particle_date: 2014-06-27T19:00:04.000Z
+  
+five:
+  provider_name: Associated Press
+  particle_id: 520d242873817cca9900052d
+  particle_date: 2015-03-16T03:51:41.000Z
