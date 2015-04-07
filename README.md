@@ -5,3 +5,5 @@ Using:
 'ruby',             '2.2.1'
 'rails',            '4.2.1'
 
+The end result is live here: https://enigmatic-garden-5794.herokuapp.com/
+
